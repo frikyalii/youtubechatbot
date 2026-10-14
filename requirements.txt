@@ -1,0 +1,39 @@
+# LangChain Core
+langchain
+langchain-core
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+langchain-anthropic
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# google-auth pulls cryptography; 49+ dropped Intel macOS wheels
+cryptography<49
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+# YouTube Chatbot & Vector Storage
+youtube-transcript-api
+langchain-community
+faiss-cpu<=1.10.0
+tiktoken
+python-dotenv
+langchain-text-splitters
+langchain-community
+faiss-cpu
